@@ -27,10 +27,6 @@ function App() {
 
   return (
     <>
-      <Navigation 
-        view={view}
-        setView={setView}
-      />
       <Header 
         view={view}
         setView={setView}
