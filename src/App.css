@@ -1,6 +1,54 @@
+:root {
+  --backgroundColor: #16262e;
+  --navbarColor1: #3b5f76;
+  --navbarColor2: #3c7a89;
+  --fontColor: #dbc2cf;
+  --hoverColor: #9fa2b2;
+}
+
 .App {
   text-align: center;
 }
+
+body {
+  background: var(--backgroundColor);
+  color: var(--fontColor);
+}
+
+nav {
+  background-image: linear-gradient(var(--navbarColor1), var(--navbarColor2));
+  color: var(--fontColor);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.nav-name {
+  font-size: 65px;
+}
+
+.nav-link {
+  color: var(--fontColor);
+  font-size: 26px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+  color: var(--fontColor);
+}
+
+.nav-link:hover {
+  color: var(--hoverColor);
+}
+
+@media (max-width: 768px) {
+  .navbar .container {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* .current-page {
+  color: var(--fontColor);
+} */
 
 /* .App-logo {
   height: 40vmin;
