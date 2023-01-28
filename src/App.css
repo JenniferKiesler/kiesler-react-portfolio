@@ -22,13 +22,19 @@ nav {
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-.nav-name {
+.my-name {
   font-size: 65px;
+}
+
+.navbar .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .nav-link {
   color: var(--fontColor);
-  font-size: 26px;
+  text-align: center;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
@@ -39,16 +45,13 @@ nav {
   color: var(--hoverColor);
 }
 
-@media (max-width: 768px) {
-  .navbar .container {
-    justify-content: center;
-    text-align: center;
-  }
+footer a {
+  color: var(--fontColor);
 }
 
-/* .current-page {
-  color: var(--fontColor);
-} */
+footer a:hover {
+  color: var(--hoverColor);
+}
 
 /* .App-logo {
   height: 40vmin;
