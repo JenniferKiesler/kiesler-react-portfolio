@@ -59,8 +59,8 @@ footer a:hover {
 
 .card-body {
   color: var(--backgroundColor);
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-weight: bold; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .project-links a {
@@ -76,6 +76,7 @@ footer a:hover {
   color: var(--backgroundColor);
   font-weight: 900;
   margin-bottom: 20px;
+  font-family:'Courier New', Courier, monospace
 }
 
 .card-title:hover {
@@ -88,6 +89,7 @@ footer a:hover {
 
 .card {
   background-color: white;
+  height: 450px;
 }
 
 .faded {

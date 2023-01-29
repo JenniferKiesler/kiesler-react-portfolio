@@ -5,20 +5,20 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
   let imgClass
 
   if (hovered && projectID === id) {
-    cardBodyClass = 'card-body position-absolute top-0 start-0 h-100 w-100 p-0'
+    cardBodyClass = 'card-body position-absolute top-0 start-0 h-100 w-100 p-2'
 
-    imgClass = "card-img-top position-relative faded"
+    imgClass = "card-img-top position-relative h-100 faded"
 
   } else {
     cardBodyClass = 'card-body position-absolute top-0 start-0 hidden'
 
-    imgClass = "card-img-top position-relative"
+    imgClass = "card-img-top position-relative h-100"
   }
   
   return (
     <div className="col">
       <div 
-        className="card text-center"
+        className="card mh-100 text-center"
         onMouseEnter={() => {
           setHovered(true)
           setProjectID(id)
@@ -36,17 +36,17 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
           id={id}
           className={cardBodyClass}
         >
-          <div className="project-links mb-2">
-            <a className="card-title fs-2 me-5 mb-0" href={deployed_url} target="_blank">{title}</a>
+          <div className="project-links pt-2 mb-2">
+            <a className="card-title fs-1 me-3 mb-0" href={deployed_url} target="_blank">{title}</a>
             <a href={github} target="_blank">
-              <i className="bi bi-github fs-2"></i>
+              <i className="bi bi-github fs-1"></i>
             </a>
           </div>
           <div>
-            <h3 className="card-text fw-bold fs-5">Description:</h3>
-            <p className="card-text fs-6">{description}</p>
-            <h3 className="card-text fw-bold fs-5">Technologies Used:</h3>
-            <p className="card-text fs-6">{tech}</p>
+            <h3 className="card-text fw-bold fs-4">Description:</h3>
+            <p className="card-text fs-5">{description}</p>
+            <h3 className="card-text fw-bold fs-4">Technologies Used:</h3>
+            <p className="card-text fs-5">{tech}</p>
           </div>
         </div>
       </div>
