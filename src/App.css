@@ -53,6 +53,23 @@ footer a:hover {
   color: var(--hoverColor);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
+.card-body {
+  color: var(--navbarColor1);
+  font-weight: bolder;
+}
+
+.card {
+  background-color: white;
+}
+
+.faded {
+  opacity: 30%;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

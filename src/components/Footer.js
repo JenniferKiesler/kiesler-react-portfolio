@@ -1,7 +1,7 @@
 const Footer = props => {
   return (
-    <footer>
-      <div className="fixed-bottom d-flex justify-content-center p-3">
+    <footer className="position-relative">
+      <div className="d-flex justify-content-center p-3">
         <a href="https://github.com/JenniferKiesler" target="_blank">
           <i className="bi bi-github m-3 fs-3"></i>
         </a>
