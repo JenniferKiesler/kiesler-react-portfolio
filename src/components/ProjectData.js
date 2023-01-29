@@ -1,11 +1,11 @@
-import HouseRules from '../images/house-rules.png'
-import TossMeABook from '../images/toss-me-a-book.png'
-import NeuralNetwork from '../images/neural-network-api.png'
-import TechBlog from '../images/tech-blog.png'
-import EmployeeTracker from '../images/employee-tracker.png'
-import EngineeringTeamProfile from '../images/engineering-team-profile.png'
-import AnywhereForecast from '../images/anywhere-forecast.png'
-import WorkDayScheduler from '../images/work-day-scheduler.png'
+import HouseRules from '../images/house-rules-2.png'
+import TossMeABook from '../images/toss-me-a-book-2.png'
+import NeuralNetwork from '../images/neural-network-api-2.png'
+import TechBlog from '../images/tech-blog-2.png'
+import EmployeeTracker from '../images/employee-tracker-2.png'
+import EngineeringTeamProfile from '../images/engineering-team-profile-2.png'
+import AnywhereForecast from '../images/anywhere-forecast-2.png'
+import WorkDayScheduler from '../images/work-day-scheduler-2.png'
 
 const ProjectData = [
   {

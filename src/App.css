@@ -58,8 +58,32 @@ footer a:hover {
 }
 
 .card-body {
+  color: var(--backgroundColor);
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.project-links a {
+  color: var(--backgroundColor);
+}
+
+.project-links a:hover {
   color: var(--navbarColor1);
-  font-weight: bolder;
+}
+
+.card-title {
+  text-decoration: none;
+  color: var(--backgroundColor);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.card-title:hover {
+  color: var(--navbarColor1);
+}
+
+.card-text {
+  color: var(--backgroundColor);
 }
 
 .card {
@@ -67,7 +91,7 @@ footer a:hover {
 }
 
 .faded {
-  opacity: 30%;
+  opacity: 25%;
 }
 
 /* .App-logo {
