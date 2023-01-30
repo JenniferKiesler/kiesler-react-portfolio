@@ -18,7 +18,7 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
   return (
     <div className="col">
       <div 
-        className="card mx-auto mh-100 text-center"
+        className="card mx-auto text-center"
         onMouseEnter={() => {
           setHovered(true)
           setProjectID(id)
@@ -36,7 +36,7 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
           id={id}
           className={cardBodyClass}
         >
-          <div className="project-links pt-2 mb-2">
+          <div className="project-links mb-2">
             <a className="card-title fs-1 me-3 mb-0" href={deployed_url} target="_blank">{title}</a>
             <a href={github} target="_blank">
               <i className="bi bi-github fs-1"></i>
