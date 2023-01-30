@@ -4,7 +4,7 @@ const Navigation = ({ view, setView }) => {
       <li className="nav-item">
         <a 
           onClick={() => setView('about')}
-          className={`nav-link m-2 ${view === 'about' ? 'active fw-bold' : ''}`}  
+          className={`nav-link m-2 ${view === 'about' ? 'active fw-bold text-decoration-underline' : ''}`}  
           href="#"
         >
           About Me
@@ -13,7 +13,7 @@ const Navigation = ({ view, setView }) => {
       <li className="nav-item">
         <a 
           onClick={() => setView('portfolio')}
-          className={`nav-link m-2 ${view === 'portfolio' ? 'active fw-bold' : ''}`} 
+          className={`nav-link m-2 ${view === 'portfolio' ? 'active fw-bold text-decoration-underline' : ''}`} 
           href="#"
         >
           Portfolio
@@ -22,7 +22,7 @@ const Navigation = ({ view, setView }) => {
       <li className="nav-item">
         <a 
           onClick={() => setView('contact')}
-          className={`nav-link m-2 ${view === 'contact' ? 'active fw-bold' : ''}`} 
+          className={`nav-link m-2 ${view === 'contact' ? 'active fw-bold text-decoration-underline' : ''}`} 
           href="#"
         >
           Contact
@@ -31,7 +31,7 @@ const Navigation = ({ view, setView }) => {
       <li className="nav-item">
         <a 
           onClick={() => setView('resume')}
-          className={`nav-link m-2 ${view === 'resume' ? 'active fw-bold' : ''}`} 
+          className={`nav-link m-2 ${view === 'resume' ? 'active fw-bold text-decoration-underline' : ''}`} 
           href="#"
         >
           Resume

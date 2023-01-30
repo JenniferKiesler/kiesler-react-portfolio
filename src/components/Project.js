@@ -18,7 +18,8 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
   return (
     <div className="col">
       <div 
-        className="card mx-auto text-center"
+        className="card col-9 mx-auto text-center"
+        // fix the col-9
         onMouseEnter={() => {
           setHovered(true)
           setProjectID(id)
