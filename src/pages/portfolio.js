@@ -7,22 +7,24 @@ const PortfolioPage = props => {
   const [hovered, setHovered] = useState(false)
   const [projectID, setProjectID] = useState('')
 
-  console.log(projects)
   return (
-    <div className="row row-cols-1 row-cols-md-2 g-4 mt-4 mx-1">
-      {projects.map(project => {
-        return (
-          <Project 
-            project={project}
-            key={project.id}
-            hovered={hovered}
-            setHovered={setHovered}
-            projectID={projectID}
-            setProjectID={setProjectID}
-          />
-        )
-      })}
-    </div>
+    <>
+      <h2 className="page-title m-3 fst-italic">Portfolio</h2>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mx-auto">
+        {projects.map(project => {
+          return (
+            <Project 
+              project={project}
+              key={project.id}
+              hovered={hovered}
+              setHovered={setHovered}
+              projectID={projectID}
+              setProjectID={setProjectID}
+            />
+          )
+        })}
+      </div>
+    </>
   )
 }
 

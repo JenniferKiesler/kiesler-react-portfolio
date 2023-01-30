@@ -66,7 +66,7 @@ const ProjectData = [
     id: 7,
     img: AnywhereForecast,
     title: 'Anywhere Forecast',
-    description: "This application is for someone wanting to see the weather for a specific city or for a traveler who wants to see the weather outlook for the cities they are traveling too.",
+    description: "This application is for someone wanting to see the weather or weather outlook for specific cities.",
     tech: 'HTML, CSS, JavaScript, OpenWeather API',
     deployed_url:'https://jenniferkiesler.github.io/anywhere-forecast/',
     github: 'https://github.com/JenniferKiesler/anywhere-forecast.git'
