@@ -125,6 +125,19 @@ footer a:hover {
   opacity: 25%;
 }
 
+.form-label {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.btn {
+  background: var(--fontColor);
+}
+
+.btn:hover {
+  background: var(--navbarColor2);
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
