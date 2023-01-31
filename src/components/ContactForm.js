@@ -3,6 +3,9 @@ import { useState } from "react"
 const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messageInput, setMessageInput}) => {
 
   const [validateEmail, setValidateEmail] = useState(true)
+  const [nameRequired, setNameRequired] = useState(true)
+  const [emailRequired, setEmailRequired] = useState(true)
+  const [messageRequired, setMessageRequired] = useState(true)
  
   return (
     <form onSubmit={event => {
@@ -22,8 +25,16 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           id="name" 
           value={nameInput}
           onChange={event => setNameInput(event.target.value)}
+          onMouseLeave={(event) => {
+            if (event.target.value === '') {
+              setNameRequired(false)
+            } else {
+              setNameRequired(true)
+            }
+          }}
           required
         />
+        {nameRequired ? '' : <p>field is required</p>}
       </div>
       <div className="mb-3">
         <label htmlFor="email" className="form-label fs-3">Email address:</label>
@@ -34,8 +45,17 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           placeholder="name@example.com" 
           value={emailInput}
           onChange={event => setEmailInput(event.target.value)}
+          onMouseLeave={(event) => {
+            if (event.target.value === '') {
+              setEmailRequired(false)
+            } else {
+              setEmailRequired(true)
+            }
+          }}
           required
         />
+        {emailRequired ? '' : <p>field is required</p>}
+        {validateEmail ? '' : <p className="text-danger pt-1 fs-5">Your email is invalid</p>}
       </div>
       <div className="mb-3">
         <label htmlFor="message" className="form-label fs-3">Message:</label>
@@ -45,10 +65,17 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           rows="10"
           value={messageInput}
           onChange={event => setMessageInput(event.target.value)}
+          onMouseLeave={(event) => {
+            if (event.target.value === '') {
+              setMessageRequired(false)
+            } else {
+              setMessageRequired(true)
+            }
+          }}
           required
         ></textarea>
+        {messageRequired ? '' : <p>field is required</p>}
       </div>
-      {validateEmail ? '' : <p>Your email is invalid</p>}
       <button className="btn fs-5" disabled={!nameInput || !emailInput || !messageInput}>Submit</button>
     </form>
   )
