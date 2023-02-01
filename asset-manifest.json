@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kiesler-react-portfolio/static/css/main.09f2885b.css",
+    "main.css": "/kiesler-react-portfolio/static/css/main.b1e5d573.css",
     "main.js": "/kiesler-react-portfolio/static/js/main.ef0d8af8.js",
     "static/js/787.31aebe49.chunk.js": "/kiesler-react-portfolio/static/js/787.31aebe49.chunk.js",
     "static/media/myself.jpeg": "/kiesler-react-portfolio/static/media/myself.96c35b2a674c79ed39cc.jpeg",
@@ -14,12 +14,12 @@
     "static/media/work-day-scheduler-2.png": "/kiesler-react-portfolio/static/media/work-day-scheduler-2.a47d53e5649a5ea58e0e.png",
     "static/media/tech-blog-2.png": "/kiesler-react-portfolio/static/media/tech-blog-2.3467938f8c72c9a4d33e.png",
     "index.html": "/kiesler-react-portfolio/index.html",
-    "main.09f2885b.css.map": "/kiesler-react-portfolio/static/css/main.09f2885b.css.map",
+    "main.b1e5d573.css.map": "/kiesler-react-portfolio/static/css/main.b1e5d573.css.map",
     "main.ef0d8af8.js.map": "/kiesler-react-portfolio/static/js/main.ef0d8af8.js.map",
     "787.31aebe49.chunk.js.map": "/kiesler-react-portfolio/static/js/787.31aebe49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09f2885b.css",
+    "static/css/main.b1e5d573.css",
     "static/js/main.ef0d8af8.js"
   ]
 }
