@@ -25,7 +25,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           id="name" 
           value={nameInput}
           onChange={event => setNameInput(event.target.value)}
-          onMouseLeave={(event) => {
+          onBlur={(event) => {
             if (event.target.value === '') {
               setNameRequired(false)
             } else {
@@ -45,7 +45,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           placeholder="name@example.com" 
           value={emailInput}
           onChange={event => setEmailInput(event.target.value)}
-          onMouseLeave={(event) => {
+          onBlur={(event) => {
             if (event.target.value === '') {
               setEmailRequired(false)
             } else {
@@ -65,7 +65,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
           rows="10"
           value={messageInput}
           onChange={event => setMessageInput(event.target.value)}
-          onMouseLeave={(event) => {
+          onBlur={(event) => {
             if (event.target.value === '') {
               setMessageRequired(false)
             } else {
