@@ -5,6 +5,9 @@
   --fontColor: #dbc2cf;
   --hoverColor: #9fa2b2;
 }
+* {
+  overflow-x: hidden;
+}
 
 .App {
   text-align: center;
