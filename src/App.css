@@ -5,9 +5,6 @@
   --fontColor: #dbc2cf;
   --hoverColor: #9fa2b2;
 }
-* {
-  overflow-x: hidden;
-}
 
 .App {
   text-align: center;
@@ -63,7 +60,7 @@ nav {
   font-size: 40px;
   color: var(--navbarColor2);
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
