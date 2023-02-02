@@ -113,6 +113,7 @@ nav {
 
 .card-text {
   color: var(--backgroundColor);
+  overflow-y: hidden;
 }
 
 .faded {
