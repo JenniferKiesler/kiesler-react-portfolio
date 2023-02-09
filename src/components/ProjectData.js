@@ -38,7 +38,7 @@ const ProjectData = [
   {
     id: 4,
     img: TechBlog,
-    title: 'CMS-Style Tech Blog',
+    title: 'Tech Blog',
     description: "An application where developers can publish their blog posts and comment on other developers' posts as well.",
     tech: 'JavaScript, Bootstrap, MySQL, Handlebars, Sequelize, Express.js',
     deployed_url:'https://jk-cms-style-tech-blog.herokuapp.com/',
