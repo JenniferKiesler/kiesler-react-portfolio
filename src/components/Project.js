@@ -31,15 +31,14 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
           id={id} 
           src={img} 
           className={imgClass}
-          alt={title}
         />
         <div 
           id={id}
           className={cardBodyClass}
         >
-          <div className="project-links">
-            <a className="card-title fs-1 me-3 mb-0" href={deployed_url} target="_blank" rel="noreferrer">{title}</a>
-            <a href={github} target="_blank" rel="noreferrer">
+          <div className="project-links mb-2">
+            <a className="card-title fs-1 me-3 mb-0" href={deployed_url} target="_blank">{title}</a>
+            <a href={github} target="_blank">
               <i className="bi bi-github fs-1"></i>
             </a>
           </div>
