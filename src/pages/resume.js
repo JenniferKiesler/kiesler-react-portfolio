@@ -25,8 +25,10 @@ const ResumePage = props => {
             <li>REST APIs</li>
             <li>Node.js</li>
             <li>Express.js</li>
-            <li>MySQL, Sequelize</li>
-            <li>MongoDB, Mongoose</li>
+            <li>MySQL</li>
+            <li>Sequelize</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
             <li>GraphQL</li>
           </ul>
         </div>
