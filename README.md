@@ -19,7 +19,7 @@ In this application:
 
 ## Visuals
 
-![react-profile](/assets/profile-screenshot.png)
+![react-profile](/assets/profile-screenshot-1.png)
 
 ## Deployed Link
 
