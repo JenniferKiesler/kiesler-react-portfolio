@@ -60,7 +60,7 @@ nav {
   font-size: 40px;
   color: var(--navbarColor2);
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-top: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -110,6 +110,7 @@ nav {
 
 .card-text {
   color: var(--backgroundColor);
+  overflow-y: hidden;
 }
 
 .faded {
