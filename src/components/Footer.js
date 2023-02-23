@@ -8,9 +8,6 @@ const Footer = props => {
         <a href="https://www.linkedin.com/in/jennifer-kiesler-aa469591/" target="_blank" rel="noreferrer">
           <i className="bi bi-linkedin m-3 fs-2"></i>
         </a>
-        <a href="https://stackoverflow.com/users/21101475/jennifer-kiesler" target="_blank" rel="noreferrer">
-          <i className="bi bi-stack-overflow m-3 fs-2"></i>
-        </a>
         <a href="mailto:kiesler.jen@gmail.com">
           <i className="bi bi-envelope-at-fill m-3 fs-2"></i>
         </a>

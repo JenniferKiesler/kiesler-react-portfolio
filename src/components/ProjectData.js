@@ -1,3 +1,4 @@
+import Remembrall from '../images/remembrall-2.png'
 import HouseRules from '../images/house-rules-2.png'
 import TossMeABook from '../images/toss-me-a-book-2.png'
 import NeuralNetwork from '../images/neural-network-api-2.png'
@@ -10,6 +11,15 @@ import WorkDayScheduler from '../images/work-day-scheduler-2.png'
 const ProjectData = [
   {
     id: 1,
+    img: Remembrall,
+    title: 'Remembrall Memory Game',
+    description: 'This application lets a user play a Harry Potter themed memory card game.',
+    tech: 'React, MongoDB/Mongoose, GraphQL, Apollo Server, Apollo Client, Node.js/Express.js, Bootstrap',
+    deployed_url:'https://lit-cove-97949.herokuapp.com/',
+    github: 'https://github.com/jonpfluger/remembrall-game.git'
+  },
+  {
+    id: 2,
     img: HouseRules,
     title: 'House Rules',
     description: 'This application lets a user read posts about different types of games and write their own posts.',
@@ -18,7 +28,7 @@ const ProjectData = [
     github: 'https://github.com/jonpfluger/house-rules.git'
   },
   {
-    id: 2,
+    id: 3,
     img: TossMeABook,
     title: 'Toss Me A Book',
     description: 'This application helps the user find a book to read in many different ways.',
@@ -27,7 +37,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/toss-me-a-book.git'
   },
   {
-    id: 3,
+    id: 4,
     img: NeuralNetwork,
     title: 'Neural Network API',
     description: "An API for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list.",
@@ -36,7 +46,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/neural-network-api.git'
   },
   {
-    id: 4,
+    id: 5,
     img: TechBlog,
     title: 'Tech Blog',
     description: "An application where developers can publish their blog posts and comment on other developers' posts as well.",
@@ -45,7 +55,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/cms-style-tech-blog.git'
   },
   {
-    id: 5,
+    id: 6,
     img: EmployeeTracker,
     title: 'Employee Tracker App',
     description: "A command-line application that manages a company's employee database.",
@@ -54,7 +64,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/employee-tracker-app.git'
   },
   {
-    id: 6,
+    id: 7,
     img: EngineeringTeamProfile,
     title: 'Engineering Team Profile',
     description: "A command-line application that takes in information about employees and creates a team profile.",
@@ -63,7 +73,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/engineering-team-profile.git'
   },
   {
-    id: 7,
+    id: 8,
     img: AnywhereForecast,
     title: 'Anywhere Forecast',
     description: "This application is for someone wanting to see the weather or weather outlook for specific cities.",
@@ -72,7 +82,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/anywhere-forecast.git'
   },
   {
-    id: 8,
+    id: 9,
     img: WorkDayScheduler,
     title: 'Work Day Scheduler',
     description: "This application is a simple calendar that allows a user to save events for each hour of the work day.",
