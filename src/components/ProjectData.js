@@ -86,7 +86,7 @@ const ProjectData = [
     img: WorkDayScheduler,
     title: 'Work Day Scheduler',
     description: "This application is a simple calendar that allows a user to save events for each hour of the work day.",
-    tech: 'jQuery',
+    tech: 'jQuery, Bootstrap, Moment.js',
     deployed_url:'https://jenniferkiesler.github.io/work-day-scheduler/',
     github: 'https://github.com/JenniferKiesler/work-day-scheduler.git'
   },
