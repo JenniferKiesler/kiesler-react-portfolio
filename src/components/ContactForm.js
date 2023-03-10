@@ -6,6 +6,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
   const [nameRequired, setNameRequired] = useState(true)
   const [emailRequired, setEmailRequired] = useState(true)
   const [messageRequired, setMessageRequired] = useState(true)
+  const [submitted, setSubmitted] = useState(false)
  
   return (
     <form onSubmit={event => {
@@ -16,6 +17,11 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
       } else {
         setValidateEmail(false)
       }
+
+      setSubmitted(true)
+      setNameInput("")
+      setEmailInput("")
+      setMessageInput("")
     }}>
       <div className="mb-3">
         <label htmlFor="name" className="form-label fs-3">Name:</label>
@@ -32,6 +38,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
               setNameRequired(true)
             }
           }}
+          onClick={() => setSubmitted(false)}
           required
         />
         {nameRequired ? '' : <p>field is required</p>}
@@ -52,6 +59,7 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
               setEmailRequired(true)
             }
           }}
+          onClick={() => setSubmitted(false)}
           required
         />
         {emailRequired ? '' : <p>field is required</p>}
@@ -72,10 +80,12 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
               setMessageRequired(true)
             }
           }}
+          onClick={() => setSubmitted(false)}
           required
         ></textarea>
         {messageRequired ? '' : <p>field is required</p>}
       </div>
+      {submitted ? <p>Thank you! Your message has been sent.</p> : ''}
       <button className="btn fs-5" disabled={!nameInput || !emailInput || !messageInput}>Submit</button>
     </form>
   )
