@@ -9,7 +9,7 @@ const PortfolioPage = props => {
 
   return (
     <>
-      <div className="row row-cols-1 row-cols-md-2 g-5 mt-3 mx-auto">
+      <div className="col-11 col-md-8 mt-4 mx-auto">
         {projects.map(project => {
           return (
             <Project 

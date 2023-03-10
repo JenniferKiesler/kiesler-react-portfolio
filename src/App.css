@@ -149,10 +149,14 @@ ul {
 
 /* footer */
 footer a {
-  color: var(--hoverColor);
+  color: var(--fontColor);
+  background: var(--navbarColor1);
+  border-radius: 50%;
+  border:4px double var(--navbarColor2);
+  padding: 5px;
 }
 
 footer a:hover {
-  color: var(--fontColor);
+  color: var(--hoverColor);
   transform: scale(1.5);
 }

@@ -16,7 +16,7 @@ const Project = ({ project, hovered, setHovered, projectID, setProjectID }) => {
   }
   
   return (
-    <div className="col p-1">
+    <div className="col my-5 p-1">
       <div 
         className="card col-11 col-xl-10 mx-auto text-center projects"
         onMouseEnter={() => {
