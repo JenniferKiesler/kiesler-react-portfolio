@@ -147,6 +147,21 @@ ul {
   list-style-type: none;
 }
 
+.list-group-item {
+  background: var(--backgroundColor);
+  color: var(--fontColor);
+  border-color: var(--navbarColor2)
+}
+
+#frontend, #backend, #transferable {
+  border: 4px double var(--navbarColor2);
+  background: var(--backgroundColor);
+}
+
+#frontend-header, #backend-header, #transferable-header {
+  background: var(--navbarColor2);
+}
+
 /* footer */
 footer a {
   color: var(--fontColor);
