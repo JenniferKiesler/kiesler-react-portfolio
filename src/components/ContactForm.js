@@ -14,14 +14,14 @@ const ContactForm = ({ nameInput, setNameInput, emailInput, setEmailInput, messa
     
       if (/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(emailInput)) {
         setValidateEmail(true)
+        setSubmitted(true)
+        setNameInput("")
+        setEmailInput("")
+        setMessageInput("")
       } else {
         setValidateEmail(false)
       }
 
-      setSubmitted(true)
-      setNameInput("")
-      setEmailInput("")
-      setMessageInput("")
     }}>
       <div className="mb-3">
         <label htmlFor="name" className="form-label fs-3">Name:</label>

@@ -6,7 +6,7 @@ const ResumePage = props => {
       <div className="row justify-content-center text-center mt-5">
         <h3 className="fs-1">Download my <a className="resume" href={Resume} download target="_blank" rel="noreferrer">Resume <i className="bi bi-cloud-arrow-down"></i></a></h3>
       </div>
-      <div className="row d-flex flex-wrap justify-content-around text-center mt-5">
+      <div className="row d-flex flex-wrap justify-content-around text-center mt-4">
         <div id="frontend" className="card col-10 col-sm-5 col-lg-3 px-0 m-3 h-100">
           <h3 id="frontend-header" className="fs-2 py-3 mb-0 fst-italic">Front-end Skills</h3>
           <ul className="list-group list-group-flush border-top-0 w-100 fs-4 p-0">
