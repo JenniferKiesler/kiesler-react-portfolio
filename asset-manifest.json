@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kiesler-react-portfolio/static/css/main.b7584b06.css",
-    "main.js": "/kiesler-react-portfolio/static/js/main.94921a6d.js",
+    "main.css": "/kiesler-react-portfolio/static/css/main.4df7c40f.css",
+    "main.js": "/kiesler-react-portfolio/static/js/main.e5fe431a.js",
     "static/js/787.31aebe49.chunk.js": "/kiesler-react-portfolio/static/js/787.31aebe49.chunk.js",
     "static/media/remembrall-2.png": "/kiesler-react-portfolio/static/media/remembrall-2.b2c71ff49789db506f91.png",
     "static/media/myself.jpeg": "/kiesler-react-portfolio/static/media/myself.96c35b2a674c79ed39cc.jpeg",
@@ -15,12 +15,12 @@
     "static/media/work-day-scheduler-2.png": "/kiesler-react-portfolio/static/media/work-day-scheduler-2.a47d53e5649a5ea58e0e.png",
     "static/media/tech-blog-2.png": "/kiesler-react-portfolio/static/media/tech-blog-2.3467938f8c72c9a4d33e.png",
     "index.html": "/kiesler-react-portfolio/index.html",
-    "main.b7584b06.css.map": "/kiesler-react-portfolio/static/css/main.b7584b06.css.map",
-    "main.94921a6d.js.map": "/kiesler-react-portfolio/static/js/main.94921a6d.js.map",
+    "main.4df7c40f.css.map": "/kiesler-react-portfolio/static/css/main.4df7c40f.css.map",
+    "main.e5fe431a.js.map": "/kiesler-react-portfolio/static/js/main.e5fe431a.js.map",
     "787.31aebe49.chunk.js.map": "/kiesler-react-portfolio/static/js/787.31aebe49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7584b06.css",
-    "static/js/main.94921a6d.js"
+    "static/css/main.4df7c40f.css",
+    "static/js/main.e5fe431a.js"
   ]
 }
