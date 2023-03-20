@@ -21,20 +21,20 @@ const Navigation = ({ view, setView }) => {
       </li>
       <li className="nav-item">
         <a 
-          onClick={() => setView('contact')}
-          className={`nav-link m-2 ${view === 'contact' ? 'active fw-bold text-decoration-underline' : ''}`} 
-          href="#"
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a 
           onClick={() => setView('resume')}
           className={`nav-link m-2 ${view === 'resume' ? 'active fw-bold text-decoration-underline' : ''}`} 
           href="#"
         >
           Resume
+        </a>
+      </li>
+      <li className="nav-item">
+        <a 
+          onClick={() => setView('contact')}
+          className={`nav-link m-2 ${view === 'contact' ? 'active fw-bold text-decoration-underline' : ''}`} 
+          href="#"
+        >
+          Contact
         </a>
       </li>
     </ul>
