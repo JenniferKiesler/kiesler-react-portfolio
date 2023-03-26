@@ -7,6 +7,7 @@ import EmployeeTracker from '../images/employee-tracker-2.png'
 import EngineeringTeamProfile from '../images/engineering-team-profile-2.png'
 import AnywhereForecast from '../images/anywhere-forecast-2.png'
 import WorkDayScheduler from '../images/work-day-scheduler-2.png'
+import ECommerce from '../images/e-commerce-2.png'
 
 const ProjectData = [
   {
@@ -56,6 +57,15 @@ const ProjectData = [
   },
   {
     id: 6,
+    img: ECommerce,
+    title: 'E-Commerce Back End',
+    description: "The back end for an e-commerce site. The application was reconfigured to use Sequelize to interact with a MySQL database.",
+    tech: 'Express, Sequelize, MySQL',
+    deployed_url:'https://drive.google.com/file/d/1fIOyzLEqBylTRxwNGvU4-KNU7u9NBgy0/view?usp=sharing',
+    github: 'https://github.com/JenniferKiesler/back-end-e-commerce.git'
+  },
+  {
+    id: 7,
     img: EmployeeTracker,
     title: 'Employee Tracker App',
     description: "A command-line application that manages a company's employee database.",
@@ -64,7 +74,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/employee-tracker-app.git'
   },
   {
-    id: 7,
+    id: 8,
     img: EngineeringTeamProfile,
     title: 'Engineering Team Profile',
     description: "A command-line application that takes in information about employees and creates a team profile.",
@@ -73,7 +83,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/engineering-team-profile.git'
   },
   {
-    id: 8,
+    id: 9,
     img: AnywhereForecast,
     title: 'Anywhere Forecast',
     description: "This application is for someone wanting to see the weather or weather outlook for specific cities.",
@@ -82,7 +92,7 @@ const ProjectData = [
     github: 'https://github.com/JenniferKiesler/anywhere-forecast.git'
   },
   {
-    id: 9,
+    id: 10,
     img: WorkDayScheduler,
     title: 'Work Day Scheduler',
     description: "This application is a simple calendar that allows a user to save events for each hour of the work day.",
