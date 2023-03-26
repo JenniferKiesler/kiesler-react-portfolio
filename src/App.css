@@ -51,13 +51,7 @@ nav {
   border: 2px solid var(--fontColor);
 }
 
-#title-about {
-  border: 3px double var(--navbarColor1);
-  border-radius: 20px;
-}
-
 #my-title {
-  font-size: 40px;
   color: var(--navbarColor2);
   font-weight: 900;
   margin-bottom: 10px;

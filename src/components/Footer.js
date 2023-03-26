@@ -1,7 +1,7 @@
 const Footer = props => {
   return (
-    <footer className="mt-5">
-      <div className="d-flex justify-content-center flex-wrap mt-3 pb-1">
+    <footer className="">
+      <div className="d-flex justify-content-center flex-wrap pb-1">
         <a className="mt-3 mx-3" href="https://github.com/JenniferKiesler" target="_blank" rel="noreferrer">
           <i className="bi bi-github m-3 fs-2"></i>
         </a>
